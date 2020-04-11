@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Grid</title>
+	<meta name="viewport" content="width=device-width">
+	<!--<link rel="icon" href="img/sign.png">-->
+	<link href="/examples/vendors/bootstrap-4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="grid-container auto-fit">
+
+<div class="grid-item calendar">
+<h2 id="calendar_h2">График отпусков</h2>
+<div class="year"> 
+
+<!-- <input type="date" class="form-control" id="date" name="date" value="2020" 
+       min="2017-01-01" max="2025-12-31"> -->
+
+    <div id="carousel" class="carousel slide d-inline-block" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+			
+			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev" img src="img/ic-left.svg" id="left" alt="graphic" class="left__img">
+            <img src="img/ic-left.svg" id="left" alt="graphic" class="left__img">      
+        </a>
+		<a href="grafics.html">
+               <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear()); </script>
+			<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <img src="img/ic-right.svg" id="right" alt="graphic" class="right__img">           
+        </a>
+		</a>
+		  </div>      
+    </div>
+</div>
+</div> 
+
+<div class="datas">
+<div class="fio"> <h4> Фамилия, Имя </h4></div>
+<div class="days"><h4> дней </h4> </div>
+
+<!--<div class="month"> -->
+ <div class="jan"> <a href="#"> <h4> Янв </h4> </a> </div>
+ <div class="feb"> <a href="#"> <h4> Фев </h4> </a> </div>
+ <div class="mar"> <a href="#"> <h4> Мар </h4> </a> </div>
+ <div class="apr"> <a href="#"> <h4> Апр </h4> </a> </div>
+ <div class="may"> <a href="#"> <h4> Май </h4> </a> </div>
+ <div class="jun"> <a href="#"> <h4> Июн </h4> </a> </div>
+ <div class="jul"> <a href="#"> <h4> Июл </h4> </a> </div>
+ <div class="aug"> <a href="#"> <h4> Авг </h4> </a> </div>
+ <div class="sep"> <a href="#"> <h4> Сен </h4> </a> </div>
+ <div class="okt"> <a href="#"> <h4> Окт </h4> </a> </div>
+ <div class="nov"> <a href="#"> <h4> Ноя </h4> </a> </div>
+ <div class="dec"> <a href="#"> <h4> Дек </h4> </a> </div>
+</div>
+
+</div>
+
+<div class="grid-item graphic">
+
+<div class="photos">
+<img src="img/ivanov.png" id="ivanov" alt="graphic" class="profile__img">
+<img src="img/ivanova1.png" id="ivanova" alt="graphic" class="profile__img">
+<img src="img/ivanov.png" id="ivanov1" alt="graphic" class="profile__img">
+<img src="img/ivanov.png" id="ivanov2" alt="graphic" class="profile__img">
+<img src="img/ivanov.png" id="ivanov3" alt="graphic" class="profile__img">
+</div>
+
+<div class="names">
+<h3> Иван Иванов </h3>
+<h3> Катерина Иванова </h3>
+<h3> Иван Иванов </h3>
+<h3> Иван Иванов </h3>
+<h3> Иван Иванов </h3>
+</div>
+
+
+<div class="dayscount">
+<h3> 14/28 </h3>
+<h3> 14/28 </h3>
+<h3> 14/28 </h3>
+<h3> 14/28 </h3>
+<h3> 14/28 </h3>
+</div>
+
+
+
+
+<!--  ЯНВАРЬ -->
+<!--<div class="weeks"> -->
+
+<!--Январь Иванов -->
+<div class="janweek_ivanov">
+<div id="janivanovinfo"> </div>
+
+<div class="janweek1">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek5">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+</div>
+
+<!--Январь Иванова -->
+
+<div class="janweek_ivanova">
+<div id="janivanovainfo"> </div>
+
+<div class="janweek1">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek5">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+</div>
+
+<!--Январь Иванов 1 -->
+
+<div class="janweek_ivanov1">
+
+<div class="janweek1">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek5">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+</div>
+
+<!--Январь Иванов2 -->
+
+<div class="janweek_ivanov2">
+
+<div class="janweek1">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek5">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+</div>
+
+<!--Январь Иванов3 -->
+
+<div class="janweek_ivanov3">
+
+<div class="janweek1">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="janweek5">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+</div>
+
+
+<!-- ФЕВРАЛЬ  -->
+
+<!--Февраль Иванов -->
+
+<div class="febweek_ivanov">
+<div id="febivanovinfo"> </div>
+
+<div class="febweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div></div>
+
+</div>
+
+<!--Февраль Иванова -->
+
+<div class="febweek_ivanova">
+<div id="febivanovainfo"> 
+<div class="profile_photo">
+<img src="img/ivanova.png" id="ivanova_grafic" alt="graphic" class="ivanova__img">
+<h2 id="info_h2"> Катерина Иванова </h2> 
+<img src="img/ic-close.svg" id="close_grafic" alt="graphic" class="close__img">
+</div>
+<div class="windowgreen"> </div>
+<span class="duration"> 09.08.2019 - 23.08.2019 (14д.) </span>
+<span class="status"> отпуск </span>
+</div>
+
+<div class="febweek1" id="info">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div></div>
+
+</div>
+
+<!--Февраль Иванов1 -->
+
+<div class="febweek_ivanov1">
+
+<div class="febweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div></div>
+
+</div>
+
+<!--Февраль Иванов2 -->
+
+<div class="febweek_ivanov2">
+
+<div class="febweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div></div>
+
+</div>
+
+<!--Февраль Иванов3 -->
+
+<div class="febweek_ivanov3">
+
+<div class="febweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek3">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div></div>
+
+<div class="febweek4">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> 
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div></div>
+
+</div>
+
+<!--  МАРТ -->
+
+<!-- Март Иванов -->
+<div class="marweek_ivanov">
+
+<div class="marweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Март Иванова -->
+
+<div class="marweek_ivanova">
+<div class="marweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Март Иванов 1 -->
+
+<div class="marweek_ivanov1">
+
+<div class="marweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek5">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+</div>
+
+<!-- Март Иванов 2 -->
+
+<div class="marweek_ivanov2">
+
+<div class="marweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek4">
+<div class="colors" id="orange"></div>
+<div class="colors" id="orange"></div>
+<div class="colors" id="orange"></div>
+<div class="colors" id="orange"></div>
+<div class="colors" id="orange"></div>
+<div class="colors" id="orange"></div>
+<div class="colors" id="orange"></div> </div>
+
+<div class="marweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Март Иванов 3 -->
+
+<div class="marweek_ivanov3">
+
+<div class="marweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek2">
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div>
+<div class="colors" id="grey"></div> </div>
+
+<div class="marweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="marweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+
+
+<!-- АПРЕЛЬ -->
+
+<!-- Апрель Иванов -->
+
+<div class="aprweek_ivanov">
+
+<div class="aprweek1">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek4">
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div> </div>
+
+<div class="aprweek5">
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div> </div>
+</div>
+
+<!-- Апрель Иванова -->
+
+<div class="aprweek_ivanova">
+
+<div class="aprweek1">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Апрель Иванов 1 -->
+
+<div class="aprweek_ivanov1">
+
+<div class="aprweek1">
+<div class="colors" id="green"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Апрель Иванов 2 -->
+
+<div class="aprweek_ivanov2">
+
+<div class="aprweek1">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Апрель Иванов 3 -->
+
+<div class="aprweek_ivanov3">
+
+<div class="aprweek1">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="aprweek5">
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="red"></div> </div>
+</div>
+
+
+
+
+
+<!-- МАЙ -->
+
+<!-- Май Иванов -->
+
+<div class="mayweek_ivanov">
+
+<div class="mayweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek4">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+
+<div class="mayweek5">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+</div>
+
+<!-- Май Иванова -->
+
+<div class="mayweek_ivanova">
+
+<div class="mayweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Май Иванов 1 -->
+
+<div class="mayweek_ivanov1">
+
+<div class="mayweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek4">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+
+<div class="mayweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Май Иванов 2 -->
+
+<div class="mayweek_ivanov2">
+
+<div class="mayweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Май Иванов 3-->
+
+<div class="mayweek_ivanov3">
+
+<div class="mayweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="mayweek4">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+
+<div class="mayweek5">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+</div>
+
+
+
+
+
+<!-- ИЮНЬ-->
+
+<!-- Июнь Иванов -->
+
+<div class="junweek_ivanov">
+
+<div class="junweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Июнь Иванова -->
+
+<div class="junweek_ivanova">
+
+<div class="junweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Июнь Иванов 1 -->
+
+<div class="junweek_ivanov1">
+
+<div class="junweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+
+<div class="junweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek5">
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="green"></div> </div>
+</div>
+
+<!-- Июнь Иванов 2 -->
+
+<div class="junweek_ivanov2">
+
+<div class="junweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+<!-- Июнь Иванов 3-->
+
+<div class="junweek_ivanov3">
+
+<div class="junweek1">
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="transparent"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek2">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek3">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek4">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+
+<div class="junweek5">
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="lightgreen"></div> </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<!--<div class="colors" id="grey"></div>
+<div class="colors" id="lightgreen"></div>
+<div class="colors" id="red"></div>
+<div class="colors" id="green"></div>
+<div class="colors" id="orange"></div> -->
+
+
+</div>
+
+
+<!-- jQuery -->
+<script src="/examples/vendors/jquery/jquery-3.3.1.min.js"></script>
+<!-- Popper -->
+<script src="/examples/vendors/popper.js/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="/examples/vendors/bootstrap-4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
